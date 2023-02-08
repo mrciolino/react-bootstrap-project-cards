@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "image": "https://picsum.photos/id/9/200/300.webp",
+            "title": "Project Title",
+            "description": "Project Description",
+            "links": [
+                {
+                    "key": "Website",
+                    "url": "https://www.matthewciolino.com/",
+                    "icon": "gg:website"
+                }
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/10/200/300.webp",
+            "title": "Project Title",
+            "description": "Project Description",
+            "links": [
+                {
+                    "key": "Website",
+                    "url": "https://www.matthewciolino.com/",
+                    "icon": "gg:website"
+                }
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/11/200/300.webp",
+            "title": "Project Title",
+            "description": "Project Description",
+            "links": [
+                {
+                    "key": "Website",
+                    "url": "https://www.matthewciolino.com/",
+                    "icon": "gg:website"
+                }
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/12/200/300.webp",
+            "title": "Project Title",
+            "description": "Project Description",
+            "links": [
+                {
+                    "key": "Website",
+                    "url": "https://www.matthewciolino.com/",
+                    "icon": "gg:website"
+                }
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/13/200/300.webp",
+            "title": "Project Title",
+            "description": "Project Description",
+            "links": [
+                {
+                    "key": "Website",
+                    "url": "https://www.matthewciolino.com/",
+                    "icon": "gg:website"
+                }
+            ]
+        }
+    ]
+}

@@ -2,26 +2,26 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Icon } from '@iconify/react';
 import PropTypes from 'prop-types';
-import './projectCards.css';
 import React from 'react';
+import './ProjectCard.css';
 
 
 // This is a functional component that is used to display a card with a title, image, description, and links
 // It takes in a prop object with the following fields: image, title, description, and links
 // Each field in links is an array with the first element being the URL and the second element being the icon
 
-// "Portfolio Website": {
-//     "title": "Portfolio Website",
-//     "description": "The website you are on right now! Check out the source code below.",
-//     "image": "assets/images/portfolio.webp",
-//     "links": {
-//         "Github": [
-//             "https://github.com/mrciolino/portfolio-site",
-//             "simple-icons:github"
-//         ]
-//     }
+// {
+//     "image": "https://via.placeholder.com/150",
+//     "title": "Project Title",
+//     "description": "Project Description",
+//     "links": [
+//         {
+//             "key": "github",
+//             "url": "https://github.com",
+//             "icon": "mdi:github"
+//         }
+//     ]
 // }
-
 
 const ProjectCard = ({ links, image, title, description }) => {
     return (
