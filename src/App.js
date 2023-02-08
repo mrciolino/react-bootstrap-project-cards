@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import ProjectCard from './components/ProjectCard';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <ProjectCard/>
       </header>
     </div>
   );

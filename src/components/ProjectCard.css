@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+# Project Section
+--------------------------------------------------------------*/
+
+.project {
+
+    --dark-shadow: #272727b0;
+    --off-bg-color: #f5f5f5;
+    --text-color: #000000;
+
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px var(--dark-shadow);
+    transition: all ease-in-out 0.3s;
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    background-color: var(--off-bg-color);
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px var(--dark-shadow), 0 4px 8px var(--dark-shadow);
+}
+
+.project.card-body {
+    background-color: var(--off-bg-color);
+    color: var(--text-color);
+}
