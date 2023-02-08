@@ -2,6 +2,8 @@
 
 Project Card is a React component that displays a card with a title, image, description, and links. It's built using React Bootstrap and Iconify.
 
+![Project Card](/public/project_cards.png)
+
 ## Installation
 To install the package, run the following command in your project directory:
 
@@ -13,26 +15,33 @@ npm install react-bootstrap-project-card
 Import the component in your project and use it as follows:
 
 ```
-import ProjectCard from 'project-card';
+import Projects from 'react-bootstrap-project-cards'
+import Data from './data.json'
 
-const App = () => {
-  const links = [
-    {
-      key: 'Github',
-      url: 'https://github.com/mrciolino/portfolio-site',
-      icon: 'simple-icons:github',
-    },
-  ];
+<Projects data={Data.projects} />
+```
 
-  return (
-    <ProjectCard
-      links={links}
-      image="assets/images/portfolio.webp"
-      title="Portfolio Website"
-      description="The website you are on right now! Check out the source code below."
-    />
-  );
-};
+## Data
+
+The component expects an array of objects which is specified in the `props` below. Here is an example:
+
+```
+{
+    "projects": [
+        {
+            "image": "https://picsum.photos/id/9/200/300.webp",
+            "title": "Project Title",
+            "description": "Project Description",
+            "links": [
+                {
+                    "key": "Website",
+                    "url": "https://www.matthewciolino.com/",
+                    "icon": "gg:website"
+                }
+            ]
+        },
+        ...
+}
 ```
 
 ## Props
