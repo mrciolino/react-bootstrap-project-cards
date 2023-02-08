@@ -38,14 +38,13 @@ const App = () => {
 ## Props
 
 The component accepts the following props:
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| links | Array of objects | Yes | Each object should contain the fields `key`, `url`, and `icon`. `key` is the display text for the link, `url` is the URL for the link, and `icon` is the icon to be displayed next to the link. |
+| image | String | Yes | Path to the image to be displayed on the card.|
+| title | String | Yes | Title to be displayed on the card.|
+| description  | String | Yes | Description to be displayed on the card.|
 
-*'links'*: An array of objects with the fields *'key'*, *'url'*, and *'icon'*. Each object represents a link to be displayed on the card. *'key'* is the display text for the link, *'url'* is the URL for the link, and *'icon'* is the icon to be displayed next to the link.
-
-*'image'*: A string representing the path to the image to be displayed on the card.
-
-*'title'*: A string representing the title to be displayed on the card.
-
-*'description'*: A string representing the description to be displayed on the card.
 
 ## License
 Project Card is released under the MIT License.

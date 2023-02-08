@@ -1,6 +1,17 @@
 {
   "name": "react-bootstrap-project-cards",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "author": {
+    "name": "Matthew Ciolino",
+    "email": "mrciolino@comcast.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrciolino/react-bootstrap-project-cards"
+  },
+  "publishConfig": {
+    "@mrciolino:registry": "https://npm.pkg.github.com"
+  },
   "private": false,
   "babel": {
     "presets": [
